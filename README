@@ -1,0 +1,16 @@
+# Compressor
+
+Compressor provides an option to strip all non space-character 
+whitespace, and replace double spaces with single spaces in the 
+Radiant ResponseCache.
+
+Set `Radiant::Config['response_cache.compressed?'] = true` to take
+advantage of Compressor.
+
+## Tips
+
+You'll need to use semi-colon line endings in any inline javascript,
+and any `<pre>` elements will be reformatted, so if you'll have that
+in your site, this extension is not for you.
+
+Built by Saturn Flyer http://www.saturnflyer.com
